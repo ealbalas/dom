@@ -34,4 +34,13 @@ Methods : used to perform functions
   #145
   classList property gives us a list of classes that are attached to the specific element
    - 'document.querySelector("button").classList'
-  We can add classes to specific element. This allows us to customize that button by tapping into the new class and adding anything you want in the CSS file
+  We can add classes to specific element. This allows us to customize that button by tapping into the new class and adding anything you want in the CSS file.
+  We can use .classList.add(), .classList.remove(), and .classList.toggle() to use JS to change what CSS class is being used.
+
+  #146
+  Difference between innerHTML and textContext. Does the samething but there are times you can use one over the other.
+
+  #147
+  Attributes are anything inside the tag ie href, class, src
+  To access these you can use '.attributes' and it will return all attributes for that object
+  You can then used .getAttribute and .setAttribute to modify them
