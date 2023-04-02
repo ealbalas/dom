@@ -28,3 +28,10 @@ Methods : used to perform functions
   If multiple objects have the same class or tag with you selectors then it will only return the first object. If you want to get all objects then you need to used a different function called querySelectorAll()
 
   querySelector is used more cause you can be specific.
+
+  To figure out what functions used to change items properites look up: HTML DOM Style object (W3schools)
+
+  #145
+  classList property gives us a list of classes that are attached to the specific element
+   - 'document.querySelector("button").classList'
+  We can add classes to specific element. This allows us to customize that button by tapping into the new class and adding anything you want in the CSS file
