@@ -3,9 +3,32 @@
     <head>
         <meta charset="utf-8">
         <title>My Website</title>
+        <!--This is how you link CSS to your code. We place it in the head element so it gets loaded up before any other content-->
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        
+    <!--This is one way of incorperating JS into your code. Not recommended method.-->
+    <!--<body onload="alert('Hello, massa');">-->
+        <h1>Hello</h1>
+        <input type="checkbox">
+
+        <button style=":active: color:red;">Click Me</button>
+
+        <ul>
+            <li class="list">
+                <a href="https://google.com">Google</a>
+            </li>
+            <li class="list">Second</li>
+            <li class="list">Third</li>
+        </ul>
+
+<!--This is another way to incorperate JS into your code-->
+<!--<script type="text/javascript">
+    alert("Hello massa!");
+</script>-->
+
+        <!--We can incorperate JS from another file/source like this. This gets placed at the end because we dont to change things not created yet-->
+        <script src="index.js" charset="utf-8"></script>
+    
     </body>
 </html>
